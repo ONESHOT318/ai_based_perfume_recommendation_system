@@ -1,0 +1,156 @@
+name,brand,category,gender,notes,season,longevity
+Chanel No.5,Chanel,floral,female,"ylang-ylang,neroli,bergamot,iris,rose,jasmin,sandalwood",winter,8 hours
+Tom Ford Oud Wood,Tom Ford,woody,male,"oud,sandalwood,cardamom,vetiver,pepper",fall,7 hours
+Dolce & Gabbana Light Blue,Dolce & Gabbana,fresh,female,"lemon,jasmine,musk,apple,cedar",summer,6 hours
+Yves Saint Laurent Black Opium,YSL,oriental,female,"coffee,vanilla,pear,jasmine,orange blossom",autumn,8 hours
+Acqua Di Gio,Armani,fresh,male,"lime,lemon,jasmine,sea notes,bergamot,cedar,musk",summer,6 hours
+Bleu De Chanel,Chanel,"citrus,woody",male,"lemon,incense,mint,grapefruit,cedar",all seasons,7 hours
+Valaya,Parfums De Marly,musky,female,"white peach,orange blossom,musk",summer,9 hours
+Libre,Yves Saint Laurent,floral,female,"lavender,orange blossom,vanilla",winter,8 hours
+Goddes,Burberry,aromatic,female,"vanilla,lavender,cacao",winter,8 hours
+Delina,Parfums De Marly,floral,female,"litchi,rose,cashmeran",summer,9 hours
+Guidance,Amouage,woody,female,"pear,hazelnut,sandalwood,vanilla",fall,10 hours
+Paradoxe,Prada,floral,female,"orange blossom,neroli,vanilla,amber",spring,7 hours
+Si,Armani,fruity,female,"cassis,rose,vanilla",fall,6 hours
+My Way,Armani,floral,female,"orange blossom,tuberose,vanilla",summer,7 hours
+For Her Eau De Parfum,Narciso Rodriguez,floral,female,"rose,musk,patchouli",fall,6 hours
+Bronze Goddes,Estee Lauder,vanilla,female,"coconut,vanilla,tiare flower",summer,7 hours
+Crystal Noir,Versace,floral,female,"pepper,ginger,coconut,orange blossom,sandalwood",winter,8 hours
+Yara,Lattafa,vanilla,female,"gourmand accord,vanilla,musk",spring,7 hours
+Hypnotic Poison,Dior,vanilla,female,"coconut,vanilla,almond,sandalwood",winter,8 hours
+Eclaire,Lattafa,gourmand,female,"caramel,milk,sugar,vanilla,praline",winter,8 hours
+Good Girl,Carolina Herrera,floral,female,"almond,coffee,tuberose,tonka bean,cacao",winter,8 hours
+Donna Born In Roma,Valentino,floral,female,"black currant,jasmine,vanilla",all seasons,7 hours
+Hundred Silent Ways,Nishane,floral,unisex,"tuberose,peach,jasmine,vanilla,sandalwood",winter,9 hours
+Bianco Latte,Giardini Di Toscana,vanilla,unisex,"caramel,honey,vanilla",winter,9 hours
+Portrait of a Lady,Frederic Malle,floral,female,"rose,clove,patchouli,incense,sandalwood",winter,10 hours
+Baccarat Rouge 540,Maison Francis Kurkdjian,oriental,unisex,"saffron,amber,cedar,sugar",winter,10 hours
+Lira,Casamorati,gourmand,female,"cinnamon,vanilla,caramel",winter,7 hours
+Soleil Blanc,Tom Ford,floral,unisex,"pistachio,tuberose,ylang-ylang,coconut",summer,6 hours
+Devotion,Dolce & Gabbana,vanilla,female,"candied lemon,panacotta,orange blossom,vanilla",winter,7 hours
+Musk Therapy,Initio,musky,unisex,"white musk,musk,black currant,bergamot",summer,7 hours
+Bottled Absolu,Hugo Boss,woody,male,"incense,leather,myrrh,patchouli,cedar",winter,9 hours
+Liquid Brun,French Avenue,vanilla,male,"cinnamon,orange blossom,vanilla,praline",winter,9 hours
+Dior Homme Intense,Dior,oriental,male,"iris,ambrette,cedar",winter,8 hours
+Outlands,Amouage,oriental,male,"frankincense,cardamom,elemi,patchouli,vanilla,amber,benzoin,oud",winter,12 hours
+Eau d'Ombré Leather,Tom Ford,leather,male,"cardamom,vanilla,leather",winter,8 hours
+Le Sel d’Issey,Issey Miyake,aquatic,male,"sea salt,ginger,seaweed,cedar,oakmoss",summer,8 hours
+Le Beau Paradise Garden,Jean Paul Gaultier,tropical,male,"green notes,watery notes,mint,coconut,fig,salt,tonka bean,sandalwood",summer,9 hours
+Decision,Amouage,woody aromatic,unisex,"cardamom,bergamot,frankincense,juniper berries,vanilla,cedar",all seasons,10 hours
+Vulcan Feu,French Avenue,tropical,unisex,"mango,lemon,ginger,tonka bean,cedar",summer,9 hours
+Eros Energy,Versace,Citrus,male,"lemon,lime,grapefruit,blood orange,musk,oakmoss",summer,7 hours
+Il Padrino,Sospiro,oriental woody,unisex,"black currant,rum,amber,patchouli,vanilla,benzoin",winter,9 hours
+Boss The Scent Elixir For Him,Hugo Boss,warm spicy,male,"red pepper,lavender,sandalwood",winter,8 hours
+Paradigme,Prada,oriental,male,"bergamot,musk,geranium,benzoin,balsam",spring,7 hours
+Amber Oud Aqua Dubai,Al Haramain,"citrus,green",unisex,"bergamot,green notes,mandarin orange,musk,green tea",summer,9 hours
+Hawas Black,Rasasi,"woody,citrus",male,"bergamot,grapefruit,pineapple,patchouli,cedar,oakmoss,woody notes",all seasons,8 hours
+Asad Bourbon,Lattafa,oriental spicy,male,"lavender,cacao,vanilla,amber",winter,8 hours
+Aether,French Avenue,woody aromatic,male,"green apple,bergamot,cedar,green tea,musk,oakmoss",summer,7 hours
+Narcotic Delight,Initio,oriental vanilla,unisex,"cherry,pink pepper,black pepper,cognac,tobacco,vanilla",winter,9 hours
+Terra,Rayhaan,oriental,male,"frankincense,cardamom,elemi,patchouli,amber,vanilla,benzoin,oud",winter,10 hours
+Hawas Tropical,Rasasi,tropical,male,"coconut,fig,mint,sandalwood,tonka bean,musk",summer,9 hours
+Spectre Wraith,French Avenue,oriental woody,male,"rum,spices,coffee,sandalwood,sugar",winter,8 hours
+Azzure Oud,French Avenue,oriental woody,male,"passionfruit,rose,oud,leather,amber",winter,10 hours
+Althair,Parfums De Marly,oriental vanilla,male,"cinnamon,orange blossom,vanilla,praline",winter,8 hours
+Layton,Parfums De Marly,oriental,male,"green apple,levender,vanilla,cardamom,sandalwood,black pepper",winter,9 hours
+Pegasus,Parfums De Marly,gourmand,male,"almond,lavender,vanilla,sandalwood,amber",fall,8 hours
+Hacivat,Nishane,"woody,citrus",male,"pineapple,bergamot,grapefruit,cedar,oakmoss,woody notes,patchouli",all seasons,10 hours
+Ani,Nishane,oriental,unisex,"ginger,bergamot,cardamom,black currant,vanilla,sandalwood",winter,10 hours
+Kenzo Homme Marine,Kenzo,aquatic,male,"sea notes,ylang-ylang,sandalwood,musk",summer,8 hours
+MYSLF Eau de Parfum,Yves Saint Laurent,"citrus,floral",male,"bergamot,orange blossom,ambrofix",summer,8 hours
+Club de Nuit Blue Iconic,Armaf,"citrus,woody",male,"grapefruit,lemon,mint,ginger,woody notes,incense,sandalwood,amber,cedar",all seasons,7 hours
+Khamrah Qahwa,Lattafa,oriental,unisex,"cinnamon,cardamom,praline,vanilla,coffee,tonka bean",winter,9 hours
+Oud for Greatness,Initio,oriental woody,unisex,"saffron,nutmeg,oud,patchouli",winter,8 hours
+Bade'e Al Oud Oud for Glory,Lattafa,oriental woody,unisex,"saffron,nutmeg,oud,patchouli",winter,8 hours
+Emporio Armani Stronger With You,Armani,vanilla,male,"chestnut,sugar,vanilla",winter,9 hours
+Eros,Versace,aromatic,male,"mint,green apple,lemon,tonka bean,vanilla,cedar",all seasons,7 hours
+Sauvage,Dior,fresh,male,"bergamot,black pepper,lavender,cedar",all seasons,8 hours
+Fahrenheit,Dior,oriental,male,"nutmeg,lavender,voilet leaf,leather,vetiver,cedar",winter,8 hours
+Angels' Share,Kilian,oriental vanilla,unisex,"cinnamon,cognac,tonka bean,vanilla,praline,sandalwood",winter,9 hours
+Royal Blend,French Avenue,oriental vanilla,unisex,"cognac,cinnamon,plum,vanilla,tonka bean,sandalwood",winter,9 hours
+Oud Maracujá,Maison Crivelli,oriental woody,male,"passionfruit,oud,leather,rose,fruity notes",winter,12 hours
+Neroli Portofino,Tom Ford,Citrus,unisex,"bergamot,mandarin orange,lemon,orange blossom,neroli,amber",summer,5 hours
+Tubéreuse Astrale,Maison Crivelli,floral,unisex,"cinnamon,tuberose,osmanthus,musk,vanilla",all seasons,10 hours
+Imagination,Louis Vuitton,"citrus,green",unisex,"Lemon,bergamot,orange,neroli,ginger,green tea",all seasons,8 hours
+Vibrato,Sospiro,Citrus,unisex,"grapefruit,bergamot,ginger,musk,cedar,amber",summer,9 hours
+Pour Homme Dylan Blue,Versace,Citrus,male,"bergamot,grapefruit,ambroxan,black pepper,patchouli,incense,musk,amber",all seasons,7 hours
+Allure Homme Sport,Chanel,aromatic,male,"Orange,sea notes,blood mandarin,vanilla,tonka bean,musk,amber",summer,7 hours
+Pour Homme,Versace,"citrus,floral",male,"lemon,bergamot,neroli,rose,cedar,musk,tonka bean,amber",summer,6 hours
+Pour Homme Oud Noir,Versace,oriental woody,male,"black pepper,saffron,cardamom,oud,patchouli",winter,7 hours
+Tygar,Bvlgari,Citrus,male,"Grapefruit,ginger,ambroxan,musk,vetiver,patchouli",summer,9 hours
+L’Immensité,Louis Vuitton,"citrus,aromatic",male,"grapefruit,bergamot,ginger,rosemary,water notes,ambroxan,amber",summer,8 hours
+Side Effect,Initio,oriental,unisex,"rum,tobacco,cinnamon,saffron,sandalwood",winter,8 hours
+After Effect,French Avenue,oriental,unisex,"rum,cinnamon,tobacco,saffron,sandalwood",winter,8 hours
+Invictus Victory Elixir,Rabanne,"woody,vanilla",male,"vanilla,tonka bean,lavender,cardamom,incense",winter,9 hours
+Invictus,Rabanne,"citrus,aquatic",male,"Sea notes,grapefruit,mandarin orange,jasmine,ambroxan",summer,7 hours
+Hawas for Him,Rasasi,"citrus,aquatic""",male,"Sea notes,plum,ambroxan,musk,apple,bergamot",summer,8 hours
+Hawas Ice,Rasasi,"citrus,aquatic",male,"apple,lemon,bergamot,plum,cardamom,musk,ambroxan,amber",summer,8 hours
+Hawas Kobra,Rasasi,fresh spicy,male,"ginger,bergamot,cinnamon,green tea,musk,amber,woody notes",summer,8 hours
+Le Male Elixir,Jean Paul Gaultier,oriental vanilla,male,"lavender,mint,vanilla,honey,tonka bean,tobacco",winter,9 hours
+Le Male Le Parfum,Jean Paul Gaultier,oriental spicy,male,"cardamom,lavender,iris,vanilla,woody notes",fall,8 hours
+Rayhaan Elixir,Rayhaan,oriental vanilla,male,"mint,lavender,vanilla,tonka bean",winter,8 hours
+Pacific Chill,Louis Vuitton,"Citrus,fruity",male,"lemon,orange,mint,apricot,basil,fig",summer,7 hours
+Pacific Aura,Rayhaan,"Citrus,fruity",male,"Orange,mint,lemon,bergamot,basil,carrot,fig,ambroxan,amber",summer,7 hours
+Ganymede,Marc-Antoine Barrois,"aromatic,warm spicy",unisex,"saffron,mandarin,mineral notes,suede,akigalawood,cedar,musk,patchouli",all seasons,10 hours
+Bois Impérial,Essential Parfums,"woody,fresh spicy",unisex,"akigalawood,basil,vetiver,woody notes,ambroxan,patchouli",all seasons,9 hours
+Missoni Wave,Missoni,"citrus,aquatic",male,"Sea notes,mandarin,lavender,rosemary,patchouli,vetiver,vanilla orchid",summer,7 hours
+Reflection Man,Amouage,"woody,floral",male,"rosemary,jasmine,neroli,ylang-ylang,sandalwood,cedar,vetiver,parchouli",spring,8 hours
+Sedley,Parfums De Marly,"citrus,aromatic",male,"lemon,mint,bergamot,grapefruit,lavender,rosemary,ambroxan,sandalwood,cedar",summer,8 hours
+Maahir Legacy,Lattafa,"citrus,aromatic",male,"Lime,mint,lavender,grapefruit,rosemary,ambroxan,vetiver,black pepper",summer,7 hours
+Rehab,Initio,woody,unisex,"Lavender,bergamot,cedar,sandalwood,musk,guaiac wood",fall,8 hours
+Spicebomb Extreme,Viktor&Rolf,oriental spicy,male,"vanilla,tobacco,cinnamon,cumin,saffron",winter,8 hours
+Boss Bottled Elixir,Hugo Boss,oriental spicy,male,"frankincense,cardamom,patchouli,labdanum,cedar",winter,8 hours
+Terre d'Hermès,Hermes,"woody,fresh spicy",male,"orange,pepper,vetiver,cedar,patchouli",fall,7 hours
+9 PM Night Out,Afnan,oriental spicy,unisex,"pitahaya,lavender,toffee,cardamom,cognac,tonka bean",winter,8 hours
+Freeze,Riiffs Perfumes,fresh,unisex,"Lemon,mint,bergamot,grapefruit,ice,ginger,sage,cedar",summer,8 hours
+Mefisto,Casamorati,"citrus,aromatic",unisex,"grapefruit,bergamot,lemon,lavender,iris,rose,musk,sandalwood",summer,7 hours
+Torino 21,Xerjoff,fresh,unisex,"mint,lemon,basil,black currant,rosemary,lavender,musk",summer,8 hours
+Symphony,Louis Vuitton,Citrus,unisex,"grapefruit,bergamot,ginger",summer,9 hours
+1 Million,Rabanne,warm spicy,male,"mandarin,cinnamon,spicy,rose,amber,leather,woody",winter,7 hours
+Haltane,Parfums De Marly,woody aromatic,male,"lavender,saffron,praline,oud,cedar",winter,8 hours
+Kalan,Parfums De Marly,oriental spicy,male,"spices,blood orange,black pepper,lavender,woody,moss",winter,8 hours
+Black Phantom,Kilian,oriental vanilla,male,"rum,dark chocolate,coffee,almond,caramel,sugar,sandalwood,vanilla",winter,9 hours
+Paragon,Initio,woody aromatic,unisex,"lavender,sage,plum,palo santo,sandalwood",fall,8 hours
+Vintage Radio,Lattafa,woody aromatic,unisex,"lavender,sage,plum,palo santo,sandalwood",fall,7 hours
+La Nuit de l'Homme,Yves Saint Laurent,"aromatic,warm spicy",male,"cardamom,lavender,cedar,bergamot,vetiver",fall,6 hours
+Al Nashama Caprice,Lattafa,"aromatic,warm spicy",male,"cardamom,ginger,lavender,cedar,amber,bergamot,vetiver",fall,6 hours
+Y Eau de Parfum,Yves Saint Laurent,aromatic,male,"green apple,ginger,bergamot,sage,amber,tonka bean,cedar",all seasons,7 hours
+Uomo Born In Roma Intense,Valentino,oriental vanilla,male,"vanilla,lavender,vetiver",winter,7 hours
+Guilty Elixir de Parfum pour Homme,Gucci,oriental vanilla,male,"orange blossom,nutmeg,iris,vanilla",winter,8 hours
+Amore Caffè,Mancera,oriental vanilla,unisex,"coffee,amaretto,ice cream,sugar,vanilla",winter,7 hours
+Oud Minérale,Tom Ford,aquatic,male,"sea notes,salt,oud,seagrass,musk",spring,8 hours
+Boss Bottled Pacific,Hugo Boss,woody aromatic,male,"coconut,salt,lemon,sandalwood",summer,7 hours
+Supremacy Collector's Edition,Afnan,fruity,male,"pineapple,bergamot,orange blossom,oakmoss,musk,ambroxan",all seasons,8 hours
+Spectre Ghost,French Avenue,oriental vanilla,unisex,"ginger,cardamom,bergamot,vanilla,pink pepper,cedar",winter,7 hours
+Divine,Jean Paul Gaultier,floral,female,"sea notes,bergamot,lily,ylang-ylang,musk,meringue",summer,8 hours
+Vanilla Powder,Matiere Premiere,vanilla,female,"coconut,vanilla,musk,palo santo",winter,8 hours
+Blue Talisman,Ex Nihilo,"Citrus,fruity",unisex,"pear,bergamot,orange,ginger,orange blossom,musk,ambroxan,akigalawood",summer,8 hours
+By the Fireplace,Maison Martin Margiela,"woody,vanilla",unisex,"cloves,pink pepper,chestnut,vanilla,balsamic,cedar",winter,7 hours
+Jazz Club,Maison Martin Margiela,oriental spicy,unisex,"pink pepper,rum,vetiver,tobacco,vanilla",winter,8 hours
+Cedrat Boise,Mancera,fresh,male,"lemon,bergamot,black currant,fruity notes,cedar,leather,sandalwood,musk",summer,7 hours
+Red Tobacco,Mancera,warm spicy,male,"cinnamon,oud,tobacco,patchouli,vanilla,amber,vetiver,sandalwood",winter,9 hours
+Carlisle,Parfums De Marly,warm spicy,male,"nutmeg,green apple,saffron,tonka bean,patchouli,vanilla",winter,8 hours
+Turathi Electric,Afnan,"Citrus,fruity",unisex,"pear,bergamot,orange,grapefruit,orange blossom,musk,amber",summer,8 hours
+Turathi Blue,Afnan,Citrus,male,"grapefruit,ginger,musk,woody,amber",summer,7 hours
+French Riviera,Mancera,"citrus,aquatic",male,"lemon,orange,sea notes,salt,musk,amber,tiare flower",summer,7 hours
+Instant Crush,Mancera,warm spicy,unisex,"saffron,ginger,amber,rose,jasmine,vanilla,musk,sandalwood",winter,9 hours
+Arabians Tonka,Montale,oriental woody,unisex,"saffron,oud,tonka bean,sugar,amber,musk,rose",winter,11 hours
+Intense Cafe,Montale,oriental vanilla,female,"rose,coffee,vanilla,musk,amber",winter,10 hours
+Starry Nights,Montale,floral,female,"apple,bergamot,rose,patchouli,musk,powdery,amber",fall,10 hours
+Grand Soir,Maison Francis Kurkdjian,oriental,male,"amber,vanilla,tonka bean,lavender,cedar",winter,10 hours
+Aventus,Creed,"woody,citrus",male,"bergamot,black currant,pineapple,patchouli,musk,cedar,oakmoss,birch",all seasons,7 hours
+Silver Mountain Water,Creed,"citrus,green",unisex,"bergamot,mandarin orange,green tea,black currant,musk,sandalwood",summer,7 hours
+Club de Nuit Sillage,Armaf,"citrus,green",unisex,"bergamot,lemon,black currant,rose,iris,ambroxan,musk,sandalwood",summer,8 hours
+Virgin Island Water,Creed,Citrus,unisex,"coconut,lime,bergamot,ginger,ylang-ylang,rum,musk",summer,6 hours
+Aquatica,Rayhaan,Citrus,unisex,"coconut,lime,bergamot,sugar,rum,musk,tonka bean",summer,8 hours
+Explorer,Montblanc,"woody,citrus",male,"bergamot,pink pepper,vetiver,leather,ambroxan,akigalawood,patchouli",all seasons,7 hours
+Supremacy Not Only Intense,Afnan,"woody,citrus",male,"black currant,bergamot,oakmoss,patchouli,ambroxan,musk",all seasons,8 hours
+Naxos,Xerjoff,oriental vanilla,unisex,"lavender,bergamot,honey,cinnamon,tobacco,vanilla,tonka bean",winter,8 hours
+Italia,Rayhaan,oriental vanilla,unisex,"lavender,lemon,bergamot,honey,cinnamon,vanilla,tobacco,tonka bean",winter,7 hours
+God of Fire,Stéphane Humbert Lucas,"Citrus,fruity",unisex,"mango,lemon,ginger,red berries,tonka bean,cedar,musk,amber",summer,9 hours
+Erba Pura,Xerjoff,"Citrus,fruity",unisex,"fruity notes,orange,bergamot,vanilla,musk,amber",summer,9 hours
+Kirkè,Tiziana Terenzi,fruity,unisex,"fruity notes,musk,vanilla,sandalwood,peach,pear",summer,9 hours
+Amber Oud Gold Edition,Al Haramain,fruity,unisex,"bergamot,melon,pineapple,amber,musk,vanilla",summer,8 hours
+Erba Gold,Xerjoff,"Citrus,fruity",unisex,"orange,melon,pear,musk,vanilla,amber,bergamot",summer,9 hours
+Asad,Lattafa,"woody,fresh spicy",male,"black pepper,lavender,tobacco,pineapple,patchouli,vanilla,amber,woody notes,benzoin",all seasons,8 hours
+Sauvage Elixir,Dior,"woody,fresh spicy",male,"black pepper,nutmeg,lavender,patchouli,woody notes,amber",all seasons,10 hours

@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Perfume Recommender</title>
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f3f1;
+            margin: 0;
+            padding: 30px;
+            color: #2c2c2c;
+        }
+
+        h1 {
+            text-align: center;
+            color: #3b2f2f;
+        }
+
+        form {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            max-width: 600px;
+            margin: 20px auto;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            margin-top: 15px;
+            background: #5a3e36;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #3f2b25;
+        }
+
+        ol {
+            max-width: 700px;
+            margin: 20px auto;
+            padding: 0;
+        }
+
+        li {
+            background: white;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            list-style: none;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+
+        canvas {
+            display: block;
+            margin: 30px auto;
+            max-width: 700px;
+        }
+
+        p {
+            text-align: center;
+            font-weight: bold;
+        }
+
+        #suggestions {
+           max-width: 600px;
+           margin: 5px auto 15px auto;
+           background: white;
+           border-radius: 8px;
+           box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+           overflow: hidden;
+        }
+
+        #suggestions div {
+           padding: 10px;
+           border-bottom: 1px solid #eee;
+           cursor: pointer;
+        }
+
+        #suggestions div:hover {
+           background: #f0e6df;
+        }
+
+        .gender-box {
+           margin-top: 15px;
+           display: flex;
+           align-items: center;
+           gap: 15px;   /* aralarındaki boşluk */
+           flex-wrap: wrap;
+        }
+
+        .gender-box label {
+           display: flex;
+           align-items: center;
+           gap: 5px;   /* checkbox ile yazı arası */
+           cursor: pointer;
+        }
+
+        .gender-box input {
+           width: auto;
+           margin: 0;
+        }
+
+        #notesSuggestions,
+        #dislikedSuggestions {
+           max-width: 600px;
+           margin: 5px auto 15px auto;
+           background: white;
+           border-radius: 8px;
+           box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+           overflow: hidden;
+       }
+
+       #notesSuggestions div,
+       #dislikedSuggestions div {
+           padding: 10px;
+           border-bottom: 1px solid #eee;
+           cursor: pointer;
+       }
+
+       #notesSuggestions div:hover,
+       #dislikedSuggestions div:hover {
+           background: #f0e6df;
+       }
+
+    </style>
+
+</head>
+<body>
+
+     <div style="
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+">
+    <div>
+        <a href="/" style="margin-right:15px;">Home</a>
+        <a href="/admin/" style="margin-right:15px;">Admin Panel</a>
+    </div>
+
+    <div>
+        Welcome, {{ request.user.first_name }} |
+        <a href="/accounts/logout/">Logout</a>
+    </div>
+</div>
+
+
+    <h1>AI Perfume Recommendation System</h1>
+
+    <!-- FORM -->
+    <form method="post">
+        {% csrf_token %}
+
+        <input type="text" name="perfume" id="perfumeInput" placeholder="Enter perfume name">
+        <div id="suggestions"></div>
+
+        <br><br>
+
+        <input type="text" id="notesInput" name="notes" placeholder="Enter notes (e.g. vanilla, citrus)">
+        <div id="notesSuggestions"></div>
+
+        <br><br>
+
+        <input type="text" id="dislikedNotesInput" name="disliked_notes" placeholder="Enter disliked notes (e.g. citrus)">
+        <div id="dislikedSuggestions"></div>
+
+        <br><br>
+
+        <div class="gender-box">
+        <label>Gender Preference:</label><br>
+
+        <label>
+            <input type="checkbox" name="gender" value="male"> Male
+        </label>
+
+        <label>
+            <input type="checkbox" name="gender" value="female"> Female
+        </label>
+
+        <label>
+            <input type="checkbox" name="gender" value="unisex"> Unisex
+        </label>
+    </div>
+
+    <br>
+
+        <button type="submit">Recommend</button>
+    </form>
+
+    <!-- ERROR -->
+    {% if error %}
+        <p style="color:red;">{{ error }}</p>
+    {% endif %}
+
+     <!-- MESSAGE -->
+     {% if message %}
+         <p style="color: green; font-weight: bold;">
+             {{ message }}
+         </p>
+     {% endif %}
+
+
+    <!-- RESULTS -->
+    {% if results %}
+        <h2 style="text-align:center; font-size:32px; margin:30px 0;">
+            Top Recommendations
+        </h2>
+
+        <ol>
+        {% for r in results %}
+    <li>
+        {% if r.image %}
+           <img src="{{ r.image }}" style="width:110px; border-radius:9px;"><br>
+        {% endif %}
+
+        <b>{{ r.name }}</b> ({{ r.brand }})<br>
+
+        Category: {{ r.category }} <br>
+        Gender: {{ r.gender }} <br>
+        Season: {{ r.season }} <br>
+        Longevity: {{ r.longevity }} <br>
+
+        <b>Notes:</b><br>
+
+{% if r.notes %}
+    <div>
+        {% for note in r.notes %}
+            <div style="display:inline-block; margin:5px; text-align:center;">
+                {% if note.image %}
+                    <img src="{{ note.image }}" style="width:40px; height:40px; border-radius:50%;"><br>
+                {% endif %}
+                {{ note.name }}
+            </div>
+        {% endfor %}
+    </div>
+{% endif %}
+
+        Similarity: {{ r.similarity }}%
+    </li>
+    <br>
+{% endfor %}
+        </ol>
+
+<!-- BAR CHART -->
+<canvas id="chart" style="max-width: 800px; height: 300px;"></canvas>
+
+<script>
+    const labels = {{ chart_labels|safe }};
+    const data = {{ chart_data|safe }};
+
+    new Chart(document.getElementById("chart"), {
+        type: 'bar',
+        data: {
+            labels: labels,
+            datasets: [{
+                label: 'Similarity %',
+                data: data
+            }]
+        }
+    });
+</script>
+
+<form method="post">
+    {% csrf_token %}
+
+    <input type="hidden" name="input_text" value="{{ request.POST.perfume|default:request.POST.notes }}">
+
+    <p>Did you like these recommendations?</p>
+
+    <button name="feedback" value="yes">👍 Yes</button>
+    <button name="feedback" value="no">👎 No</button>
+</form>
+
+{% endif %}
+
+
+    <script>
+        const perfumeInput = document.getElementById("perfumeInput");
+        const suggestionsBox = document.getElementById("suggestions");
+
+        perfumeInput.addEventListener("input", function () {
+           const query = perfumeInput.value;
+
+           if (query.length < 2) {
+              suggestionsBox.innerHTML = "";
+              return;
+           }
+
+           fetch(`/autocomplete/?q=${query}`)
+              .then(response => response.json())
+              .then(data => {
+                   suggestionsBox.innerHTML = "";
+
+                   data.suggestions.forEach(item => {
+                       const div = document.createElement("div");
+                       div.textContent = item;
+
+                       div.addEventListener("click", function () {
+                          perfumeInput.value = item;
+                          suggestionsBox.innerHTML = "";
+                       });
+
+                       suggestionsBox.appendChild(div);
+                       });
+        });
+});
+
+
+        // 🔥 NOTE AUTOCOMPLETE
+function setupNoteAutocomplete(inputId, suggestionBoxId) {
+    const input = document.getElementById(inputId);
+    const box = document.getElementById(suggestionBoxId);
+
+    input.addEventListener("input", function () {
+        const query = input.value.split(",").pop().trim();
+
+        if (query.length < 1) {
+            box.innerHTML = "";
+            return;
+        }
+
+        fetch(`/note-autocomplete/?q=${query}`)
+            .then(response => response.json())
+            .then(data => {
+                box.innerHTML = "";
+
+                data.suggestions.forEach(item => {
+                    const div = document.createElement("div");
+                    div.textContent = item;
+
+                    div.addEventListener("click", function () {
+                        let values = input.value.split(",");
+                        values[values.length - 1] = " " + item;
+                        input.value = values.join(",");
+                        box.innerHTML = "";
+                    });
+
+                    box.appendChild(div);
+                });
+            });
+    });
+}
+
+// 🔥 İKİ INPUT İÇİN ÇALIŞTIR
+setupNoteAutocomplete("notesInput", "notesSuggestions");
+setupNoteAutocomplete("dislikedNotesInput", "dislikedSuggestions");
+
+    </script>
+
+
+</body>
+</html>

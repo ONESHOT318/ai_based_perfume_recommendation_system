@@ -9,25 +9,29 @@
 
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background: #f5f3f1;
-            margin: 0;
-            padding: 30px;
-            color: #2c2c2c;
-        }
+           font-family: Arial, sans-serif;
+           background: linear-gradient(to bottom right, #f5f3f1, #ece7e2);
+           margin: 0;
+           padding: 30px;
+           color: #2c2c2c;
+       }
 
         h1 {
             text-align: center;
             color: #3b2f2f;
+            font-size: 38px;
+            margin-bottom: 10px;
+            letter-spacing: 0.5px;
         }
 
         form {
-            background: white;
-            padding: 20px;
-            border-radius: 12px;
+            background: rgba(255,255,255,0.95);
+            padding: 25px;
+            border-radius: 18px;
             max-width: 600px;
             margin: 20px auto;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+            backdrop-filter: blur(8px);
         }
 
         input {
@@ -49,8 +53,13 @@
             cursor: pointer;
         }
 
+        button {
+           transition: all 0.3s ease;
+        }
+
         button:hover {
-            background: #3f2b25;
+           background: #3f2b25;
+           transform: translateY(-2px);
         }
 
         ol {
@@ -60,12 +69,17 @@
         }
 
         li {
-            background: white;
-            padding: 15px;
-            margin-bottom: 15px;
-            border-radius: 10px;
+            background: rgba(255,255,255,0.95);
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 18px;
             list-style: none;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+            transition: all 0.3s ease;
+        }
+
+        li:hover {
+           transform: translateY(-4px);
         }
 
         canvas {
@@ -324,7 +338,7 @@
 });
 
 
-        // 🔥 NOTE AUTOCOMPLETE
+        // NOTE AUTOCOMPLETE
 function setupNoteAutocomplete(inputId, suggestionBoxId) {
     const input = document.getElementById(inputId);
     const box = document.getElementById(suggestionBoxId);
@@ -359,7 +373,6 @@ function setupNoteAutocomplete(inputId, suggestionBoxId) {
     });
 }
 
-// 🔥 İKİ INPUT İÇİN ÇALIŞTIR
 setupNoteAutocomplete("notesInput", "notesSuggestions");
 setupNoteAutocomplete("dislikedNotesInput", "dislikedSuggestions");
 

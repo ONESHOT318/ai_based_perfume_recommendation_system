@@ -1,15 +1,105 @@
-<div style="text-align: right; margin-bottom: 20px;">
-    <a href="/accounts/login/">Login</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+
+    <style>
+        .app-title {
+           text-align: center;
+           color: #3b2f2f;
+           font-size: 38px;
+           margin-top: 20px;
+           margin-bottom: 30px;
+           letter-spacing: 0.5px;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom right, #f5f3f1, #ece7e2);
+            margin: 0;
+            padding: 30px;
+            color: #2c2c2c;
+        }
+
+        .auth-box {
+            background: rgba(255,255,255,0.95);
+            max-width: 420px;
+            margin: 70px auto;
+            padding: 30px;
+            border-radius: 18px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+            text-align: center;
+        }
+
+        h2 {
+            color: #3b2f2f;
+            margin-bottom: 25px;
+        }
+
+        form p {
+            text-align: left;
+            margin-bottom: 14px;
+        }
+
+        label {
+            font-weight: bold;
+            color: #3b2f2f;
+        }
+
+        input {
+            width: 100%;
+            padding: 12px;
+            margin-top: 6px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            margin-top: 18px;
+            background: #5a3e36;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        button:hover {
+            background: #3f2b25;
+            transform: translateY(-2px);
+        }
+
+        a {
+            color: #5a3e36;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .links {
+            margin-top: 18px;
+        }
+    </style>
+</head>
+<body>
+<h1 class="app-title">AI Perfume Recommendation System</h1>
+<div class="auth-box">
+    <h2>Create Account</h2>
+
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+
+        <button type="submit">Register</button>
+    </form>
+
+    <div class="links">
+        <a href="/accounts/login/">Already have an account? Login</a>
+    </div>
 </div>
 
-<h2>Register</h2>
-
-<form method="post">
-    {% csrf_token %}
-
-    {{ form.as_p }}
-
-    <button type="submit">Register</button>
-</form>
-
-<a href="/accounts/login/">Already have an account? Login</a>
+</body>
+</html>
